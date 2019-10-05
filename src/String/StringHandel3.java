@@ -4,6 +4,6 @@ import java.util.Scanner;
 
 public class StringHandel3 {
     public static void main(String[] args) {
-        Scanner sc =
+        Scanner sc = new Scanner(System.in);
     }
 }
