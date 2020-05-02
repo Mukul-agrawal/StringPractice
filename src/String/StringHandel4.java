@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class StringHandel4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter some text : ");
         String inputString = sc.nextLine().trim();
         char[] array = inputString.toCharArray();
         int d = 0;
@@ -23,6 +24,7 @@ public class StringHandel4 {
                 }
             }
         }
+        System.out.println("Replaced text :");
         for (int i = 0; i < inputString.length(); i++) {
             System.out.print(array[i]);
         }
