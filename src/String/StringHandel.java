@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class StringHandel {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter some text : ");
         String string1 = sc.nextLine();
         System.out.print("Index : ");
         for (int i = 0; i < string1.length(); i++) {
