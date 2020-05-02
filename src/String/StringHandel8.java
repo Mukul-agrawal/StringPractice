@@ -14,8 +14,7 @@ public class StringHandel8 {
                 sum = sum + inputString.charAt(i);
             }
         }
-        System.out.println("total weight of uppercase character :");
-        System.out.print(sum);
+        System.out.println("total weight of uppercase character : " + sum);
         sc.close();
     }
 }

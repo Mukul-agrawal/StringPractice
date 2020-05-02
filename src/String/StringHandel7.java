@@ -11,8 +11,7 @@ public class StringHandel7 {
         for (int i = 0; i < inputString.length(); i++) {
             sum = sum + inputString.charAt(i);
         }
-        System.out.println("total weight of given string :");
-        System.out.println(sum);
+        System.out.println("total weight of given string : " + sum);
         sc.close();
     }
 }
