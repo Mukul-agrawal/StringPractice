@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class StringHandel9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string :");
         String inputString = sc.nextLine().trim();
         int upperWeight = 0;
         int lowerWeight = 0;
@@ -18,7 +19,7 @@ public class StringHandel9 {
             }
         }
         absoluteWeight = upperWeight - lowerWeight;
-        System.out.print("Absolute Weight is " + Math.abs(absoluteWeight));
+        System.out.print("Absolute Weight is : " + Math.abs(absoluteWeight));
         sc.close();
     }
 }
